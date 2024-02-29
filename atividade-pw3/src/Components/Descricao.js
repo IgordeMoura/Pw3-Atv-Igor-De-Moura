@@ -1,16 +1,16 @@
 function Descricao({titulo, descricao, autor, tradutor, formato, avaliacoes, link}){
     return (
         <div className="descricao">
-            <h1>{titulo}</h1>
+            <h2>{titulo}</h2>
             <div className="container">
                 <div className="informacoes-cima">
-                        <p>{autor}</p>
+                        <p >{autor}</p>
                         <p>{tradutor}</p>
-                        <p>{formato}</p>
+                        <p id="info">{formato}</p>
                 </div>
                 <div className="informacoes-baixo">
-                        <p>{avaliacoes}</p>
-                        <p>{link}</p>
+                        <p id="info">{avaliacoes}</p>
+                        <p id="info">{link}</p>
                 </div>
             </div>
             <p>{descricao}</p>
