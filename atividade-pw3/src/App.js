@@ -8,11 +8,9 @@ import Header from './Components/Header';
 
 // imagens importadas
 import babilonia from './Livros/Babilônia_A_Mesopotâmia.jpg';
+import babiloniaTraseira from './Livros/Traseira_Babilônia_A_Mesopotâmia.jpg';
 import Amazon from './logo/Amazon.png';
 
-
-
-const desc = 'teste'
 
 function App() {
   return (
@@ -20,18 +18,19 @@ function App() {
     <div>
       <Header
         logo = {Amazon}
-        legenda = {desc}
+        legenda = "Logo da Amazon"
       />
 
       <div className='App'>
         <Produto
           imagem = {babilonia}
-          legenda = {desc}
+          legenda = "Livro Babilonia A Mesopotamia"
         />
 
         <Mostruario
-          imagem = {babilonia}
-          legenda = {desc}
+          imagemAmostra1 = {babilonia}
+          imagemAmostra2 = {babiloniaTraseira}
+          legenda = "Imagens Mostruario Referente ao Livro Babilonia A Mesopotamia"
         />
 
 

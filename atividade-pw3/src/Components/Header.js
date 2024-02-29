@@ -1,7 +1,7 @@
-function Header({logo, legenda}){
+function Header({logo, legendaHeader}){
     return (
         <div className="header">
-            <img src = {logo} className="logo" Alt = {legenda} />
+            <img src = {logo} className="logo" Alt = {legendaHeader} />
             <div className="local-entrega">
                 <p>A Entrega Será Feita Em Embu 4002-8922</p>
                 <h1>Atualizar Local</h1>
